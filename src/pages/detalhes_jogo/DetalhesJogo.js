@@ -27,7 +27,7 @@ const DetalhesJogo = () => {
       <h1>{game.title}</h1>
       <p>{game.description}</p>
       <div className="rating">Avaliação: {game.rating}</div>
-      {/* Aqui você pode adicionar um sistema de avaliação ou comentários */}
+      {/* Adicionar um sistema de avaliação ou comentários */}
     </div>
   );
 };
