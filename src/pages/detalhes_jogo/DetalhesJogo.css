@@ -1,0 +1,13 @@
+/* GameDetails.css */
+.game-details {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .rating {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #FFD700;
+  }
+  

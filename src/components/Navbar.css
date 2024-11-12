@@ -1,0 +1,53 @@
+
+
+@font-face {
+    font-family: 'Upheaval';
+    src: url('../assets/fonts/upheavtt.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+.navbar {
+    background-color: #051037;
+    color: white;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+  }
+
+  .navbar h1 {
+    font-family: 'Upheaval', sans-serif;
+    padding-left: 10px;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    margin: 0;
+    padding-right: 10px;
+    display: flex;
+  }
+  
+  .navbar li {
+    margin-left: 20px;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+  }
+  /*
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+    */
+
+
+  
